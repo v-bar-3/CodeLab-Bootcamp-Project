@@ -16,5 +16,3 @@ async function getCall() {
 //If we have small specific set of code, usable.
 //Otherwise, we should use async and await
 
-// - **.then** and **.catch** callbacks - these are two functions called in the case that your API call either succeeds or fails, storing code that should be ran right after the call completes in either case.
-// - **async/await** keywords - these are keywords that force your program to pause and wait for the line with an `await` on it to finish.
