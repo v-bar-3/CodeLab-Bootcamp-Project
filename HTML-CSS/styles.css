@@ -1,0 +1,25 @@
+.myclass {
+    color: red;
+}
+
+#myid {
+    color: blue;
+}
+
+.divClass {
+    background-color: red;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 900;
+    border: 10px dashed blue;
+    padding: 64px;
+    margin: 64px;
+
+}
+
+@media (min-width: 600px) {
+    .divClass {
+        background-color: green;
+    }
+
+}
